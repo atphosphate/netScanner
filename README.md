@@ -1,3 +1,7 @@
+# Setup
+```bash
+git clone https://github.com/atphosphate/netScanner.git
+```
 # Usage
-
-python net_scanner.py -r "range of local ip adresses"
+```bash
+python net_scanner.py -r <range of local ip adresses>
