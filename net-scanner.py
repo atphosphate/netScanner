@@ -19,6 +19,6 @@ def scan(ip_range):
     combined_packet = arp_broadcast_packet/arp_request_packet
     return scapy.srp(combined_packet, timeout=1)
 
-(user_input, arguments) = get_info()
-(answered_list, unanswered_list) = scan(user_input.ip_adress)
+
+(answered_list, unanswered_list) = scan(get_info().ip_adress)
 answered_list.summary()
